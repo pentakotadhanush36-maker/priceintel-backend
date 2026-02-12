@@ -66,4 +66,4 @@ def get_portfolio():
 
 @app.get("/")
 def root():
-    return {"message": "PriceIntel api is live "}
+    return {"message": "PriceIntel api is live"}
