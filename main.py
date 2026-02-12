@@ -63,3 +63,7 @@ def track_product(product: Product):
 @app.get("/portfolio")
 def get_portfolio():
     return tracked_products
+
+@app.get("/")
+def root():
+    return {"message": "PriceIntel api is live "}
